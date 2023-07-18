@@ -72,6 +72,17 @@ h6 {
   isolation: isolate;
 }
 
+/* A11Y Project | Visually hidden class*/
+.visually-hidden {
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+
 :root {
   --size-1: calc(0.25rem * 1);
   --size-2: calc(0.25rem * 2);

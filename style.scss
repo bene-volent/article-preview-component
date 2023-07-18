@@ -73,6 +73,18 @@ h6 {
   isolation: isolate;
 }
 
+/* A11Y Project | Visually hidden class*/
+.visually-hidden {
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+
+
 $very-dark-grayish-blue: 214 19% 35%;
 $desaturated-dark-blue: 214 17% 51%;
 $grayish-blue: 212 23% 69%;
